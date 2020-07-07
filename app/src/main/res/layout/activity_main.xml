@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_EXCLUSIVE_EXCLUSIVE"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_exclusive_exclusive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_EXCLUSIVE_EXCLUSIVE" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_INCLUSIVE_INCLUSIVE"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_inclusive_inclusive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_INCLUSIVE_INCLUSIVE" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_EXCLUSIVE_INCLUSIVE"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_exclusive_inclusive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_EXCLUSIVE_INCLUSIVE" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_INCLUSIVE_EXCLUSIVE"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_inclusive_exclusive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_INCLUSIVE_EXCLUSIVE" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_POINT_MARK_MASK"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_point_mark_mask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_POINT_MARK_MASK" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_MARK_MARK"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_mark_mark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_MARK_MARK" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_MARK_POINT"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_mark_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_MARK_POINT" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_POINT_MARK"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_point_mark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_POINT_MARK" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_POINT_POINT"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_point_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_POINT_POINT" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_PARAGRAPH"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_PARAGRAPH" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_COMPOSING"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_composing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_COMPOSING" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_INTERMEDIATE"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_intermediate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_INTERMEDIATE" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_USER_SHIFT"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_user_shift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_USER_SHIFT" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_USER"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_USER" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_PRIORITY_SHIFT"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_priority_shift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_PRIORITY_SHIFT" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPAN_PRIORITY"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tv_span_priority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPAN_PRIORITY" />
+    </LinearLayout>
+</ScrollView>
